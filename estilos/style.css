@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+
+:root {
+    --Preto: #242424;
+    --Amarelo: #FCA60F;
+    --Marrom: #C95E20;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* CABEÇALHO */
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../assets/forma1.svg) no-repeat center left;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid #EFEFEF;
+}
+
+header > img {
+    width: 200px;
+    height: 100px;
+}
+
+header > nav {
+    width: 380px;
+    height: 100px;
+    display: flex;
+}
+
+header > nav > a {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--Preto);
+}
+
+ 
+/*  CORPO  */
+
+
+main {
+    width: 100%;
+    height: 634px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(../assets/forma2.svg) no-repeat right;
+}
+
+main > section {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto {
+    width: 600px;
+    height: 160px;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: left;
+}
+
+.butao {
+    width: 300px;
+    height: 70px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--Amarelo);
+    font-size: 1.5em;
+    color: white;
+}
+
+.redes {
+    display: flex;
+    gap: 10px;
+}
+
+.imagem {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*  PÉZINHO  */
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top center;
+}
+
+.textoscroll {
+    font-size: 1.5em;
+    font-weight: 700;
+} 
+
+
+
+
+
+
